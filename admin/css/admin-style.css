@@ -1,0 +1,112 @@
+.aft-settings-wrap .aft-rule-item {
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    position: relative; /* A gombok abszolút pozicionálásához */
+}
+
+.aft-settings-wrap .aft-rule-item h4 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.aft-settings-wrap .aft-remove-rule {
+    /* float: right; */ /* Eltávolítva, hogy az aft-rule-actions div kezelje */
+    /* margin-left: 10px; */
+    color: #a00;
+    border-color: #a00;
+}
+.aft-settings-wrap .aft-remove-rule:hover {
+    background-color: #a00;
+    color: #fff;
+}
+
+.aft-settings-wrap .timing-inputs-wrapper {
+    display: flex;
+    gap: 15px; /* Térköz az inputok között */
+    align-items: center; /* Függőleges igazítás */
+}
+
+.aft-settings-wrap .timing-inputs-wrapper div {
+    display: flex;
+    align-items: center;
+}
+
+.aft-settings-wrap .timing-inputs-wrapper input[type="number"] {
+    width: 60px; /* Kisebb szélesség a szám inputoknak */
+    margin-right: 5px;
+}
+
+.aft-settings-wrap .timing-inputs-wrapper label {
+    margin-right: 10px; /* Térköz a label és a következő input között */
+}
+
+.aft-settings-wrap .form-table th {
+    width: 200px;
+}
+.aft-settings-wrap .form-table td .description {
+    font-size: 0.85em;
+    color: #666;
+}
+
+#aft-add-rule {
+    margin-bottom: 20px;
+}
+
+#aft-save-feedback {
+    padding: 10px;
+    margin-top: 10px;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+#aft-save-feedback.notice-success {
+    border-left-color: #4CAF50;
+    background: #f1f8f1;
+}
+#aft-save-feedback.notice-error {
+    border-left-color: #F44336;
+    background: #fff0f0;
+}
+
+.aft-rule-actions {
+    position: absolute;
+    top: 15px; /* Igazítás a paddinghez képest */
+    right: 15px; /* Igazítás a paddinghez képest */
+    display: flex;
+    gap: 5px;
+}
+
+.aft-tag-now-button .dashicons {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.aft-tag-now-feedback {
+    /* A JS kezeli a megjelenítést és elrejtést */
+}
+.aft-tag-now-feedback p {
+    padding: 8px 12px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+.aft-tag-now-feedback p.notice-success {
+    border-left-color: #4CAF50;
+    background: #f1f8f1;
+    color: #3c763d;
+}
+.aft-tag-now-feedback p.notice-error {
+    border-left-color: #F44336;
+    background: #fff0f0;
+    color: #a94442;
+}
+.aft-tag-now-feedback p.notice-info {
+    border-left-color: #2196F3;
+    background: #eef7ff;
+    color: #31708f;
+}
